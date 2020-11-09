@@ -1,14 +1,40 @@
-body{
-    
+/****************tag-selectors ***************/
+
+body {
+
     background-color: darkkhaki;
     text-align: center;
 }
 
-hr{
+h1 {
+    color: aqua;
+}
+
+hr {
     /* background-color: white; */
     border-color: lightgoldenrodyellow;
     border-style: none;
     border-top-style: dotted;
     border-width: 5px;
     width: 5%;
+}
+
+/*img{
+    border-radius: 50%;
+    } */
+
+/*+++++++++++ class-selectors **************************/
+
+.frog {
+    border-radius: 20em 100em;
+}
+
+.unke {
+    border-radius: 50%;
+}
+
+/*+++++++++++ id-selectors **************************/
+
+#heading {
+    color:beige;
 }
